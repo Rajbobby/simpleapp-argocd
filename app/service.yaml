@@ -8,5 +8,6 @@ spec:
   ports:
     - port: 80
       targetPort: 8080
+      nodePort: 32089
   type: NodePort   # Or LoadBalancer if using cloud
   
