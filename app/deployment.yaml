@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: simpleapp
-          image: docker.io/krajendar/cdacros:simpleappversion2
+          image: docker.io/krajendar/cdacros:simpleappversion3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
